@@ -1,0 +1,160 @@
+.home-section {
+    background-color: rgb(9, 9, 10);
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.heroPage {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.contact-link {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    padding: 390px 0;
+    position: fixed;
+}
+
+.contact-link a i {
+    font-size: 20px;
+    margin: 10px;
+    color: rgb(40, 40, 41);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+    padding: 150px 0;
+}
+
+.welcome {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #d54a49;
+    font-size: 13px;
+
+}
+
+.dev-name {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 3.3em;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 2.2em;
+    /* width: 90%; */
+    color: rgba(246, 245, 245, 0.616);
+}
+
+.dev-about {
+    width: 100%;
+}
+
+
+.sub-title p {
+    font-family: 'Microsoft JhengHei', sans-serif;
+    font-size: 14px;
+    color: rgba(246, 245, 245, 0.616);
+}
+
+.sub-title {
+    padding: 15px 0;
+    width: 60%;
+}
+
+.mailLink {
+    padding: 20px 0;
+}
+
+.mailLink a {
+    font-family: 'Noto sans jp', sans-serif;
+    border: 1.3px solid #d54a49;
+    width: 50%;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 4px;
+    color: rgb(226, 226, 226);
+}
+
+@media (max-width: 850px) {
+    .contact-link {
+        display: none;
+
+    }
+}
+
+
+@media (max-width: 670px) {
+    h1 {
+        font-size: 3.0em;
+    }
+
+    h2 {
+        font-size: 2.0em;
+    }
+
+    .sub-title {
+        width: 80%;
+    }
+
+    .container {
+        margin: 40px;
+    }
+
+    .social-btn {
+        cursor: pointer;
+        height: 25px;
+        width: 25px;
+    }
+
+    svg {
+        height: 15px;
+        width: 15px;
+    }
+
+    .social-btn span {
+
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 520px) {
+
+    .container {
+        /* padding: 80px 0; */
+    }
+
+    .sub-title {
+
+        /* padding: 0; */
+
+        /* margin-right: 300px; */
+    }
+
+    h1 {
+        font-size: 2.3em;
+        /* margin-left: 20px; */
+    }
+
+    h2 {
+        font-size: 1.5em;
+        /* width: 120px; */
+    }
+}

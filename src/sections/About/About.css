@@ -1,0 +1,223 @@
+body {
+    font-family: "Noto Sans", sans-serif;
+}
+
+.about-section {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: rgb(9, 9, 10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+    align-items: center;
+    background-color: rgba(15, 15, 17, 0.973);
+    box-shadow: 2px 2px #d54a49;
+    width: 730px;
+    height: 400px;
+}
+
+.aboutImg img {
+    width: 300px;
+    padding: 10px;
+    padding-right: 50px;
+}
+
+.aboutDetails {
+    margin: 20px;
+}
+
+.aboutDetails .title {
+    padding: 10px 0 10px 0;
+    text-align: left;
+
+}
+
+.contactlink {
+    display: none;
+    visibility: hidden;
+}
+
+.aboutDetails p {
+    font-family: 'Noto sans jp', sans-serif;
+    font-size: 15px;
+    color: rgba(246, 245, 245, 0.616);
+}
+
+.aboutDetails h2 {
+    font-family: 'Noto sans JP', sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 20px;
+    margin: 0;
+}
+
+
+.infoDetails p {
+    font-family: 'Microsoft JhengHei', sans-serif;
+    font-size: 12px;
+    text-align: left;
+    color: rgba(246, 245, 245, 0.616);
+    margin: auto;
+
+    padding: 0 0 5px 0;
+
+}
+
+.infoDetails {
+    padding: 0;
+    width: 100%;
+}
+
+.aboutInfo {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.contactDetails i {
+    margin: 5px 0;
+    font-size: 13px;
+    color: #d54a49;
+}
+
+.contactDetails {
+    padding: 0;
+}
+
+.contactDetails p {
+    font-family: 'Microsoft JhengHei', sans-serif;
+    font-size: 12px;
+    margin: 0 10px;
+    color: rgba(246, 245, 245, 0.616);
+    padding: 0;
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0;
+}
+
+.contactDetails a {
+    font-family: 'Microsoft JhengHei', sans-serif;
+    font-size: 12px;
+    margin: 10px;
+    color: rgba(246, 245, 245, 0.616);
+    text-decoration: none;
+}
+
+
+
+@media (max-width: 850px) {
+
+    .about {
+        width: 650px;
+        height: 350px;
+    }
+
+    .aboutImg img {
+        width: 250px;
+    }
+
+    .aboutDetails {
+        margin: 10px;
+    }
+
+    .aboutDetails h2 {
+        font-size: 15px;
+    }
+
+    .aboutDetails p {
+        padding: 0;
+        font-size: 14px;
+    }
+
+    .infoDetails p {
+        font-size: 12px;
+    }
+
+    .contactDetails i {
+        font-size: 10px;
+    }
+
+    .contactDetails {
+        padding: 0;
+    }
+
+    .contactDetails p {
+        font-family: 'Noto sans';
+        font-size: 11px;
+        margin: 0 5px;
+    }
+
+    .contactDetails a {
+        font-family: 'Noto sans';
+        font-size: 11px;
+        margin: 0 10px;
+    }
+
+    .contactlink {
+        display: flex;
+        visibility: visible;
+
+    }
+
+    .contactlink a i {
+        padding: 10px 0;
+        margin-right: 10px;
+        font-size: 20px;
+        color: rgb(56, 56, 58);
+    }
+}
+
+
+
+@media (max-width: 660px) {
+
+    .about {
+        display: none;
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+        /* width: 450px; */
+        /* height: 300px; */
+        /* margin: 20px; */
+    }
+
+    br {
+        display: none;
+    }
+
+    .aboutImg img {
+
+        padding: 10px;
+        margin: 10px;
+        width: 200px;
+        padding-left: 70px;
+    }
+
+    .aboutDetails {
+        /* margin: 0 20px 0 20px; */
+        padding-right: 20px;
+    }
+
+    .infoDetails p {
+        /* letter-spacing: 0.1px; */
+        /* width: 100%; */
+        /* padding: 0 0 10px 0; */
+        padding-right: 0;
+
+    }
+}
