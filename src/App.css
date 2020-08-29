@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.navbar {
+  /* background-color: rgba(2, 2, 2, 0.219); */
+
+  width: 100vw;
+  justify-content: space-between;
+  font-size: 14px;
+  /* font-weight: bold; */
+  position: fixed;
+}
+
+.navbar a {
+  font-size: 12px;
+  text-decoration: none;
+
+}
+
+.navbar img {
+  width: 130px;
+  line-height: 200px;
+  /* padding: 0 5px; */
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.logo-container img {
+  padding-top: 30px;
+}
+
+.contact {
+  font-weight: bold;
+  border: 1.2px solid #d54a49;
+  border-radius: 3px;
+  margin-left: 10px;
+  margin-right: 40px;
+  padding: 10px 15px;
+  color: #d54a49;
+  cursor: pointer;
+}
+
+.contact a {
+  margin: 10px;
+}
+
+
+.navbar .options {
+  float: right;
+  margin-right: 20px;
+  display: inline-block;
+  line-height: 80px;
+}
+
+.navbar .options .option {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.options>.active {
+  background-color: #d54a49;
+  border-radius: 3px;
+  padding: 15px 10px;
+  transition: .5s;
+}
+
+.checkbtn i {
+  font-size: 18px;
+  color: rgba(246, 245, 245, 0.616);
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+
+}
+
+#check {
+  display: none;
+}
+
+@media (max-width: 670px) {
+  .navbar img {
+    margin-left: 20px;
+    width: 120px;
+    padding-top: 35px;
+  }
+
+
+  .navbar .options .option {
+    font-size: 10px;
+    margin-right: 1px;
+  }
+
+  .navbar .contact {
+    font-size: 10px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 560px) {
+  .checkbtn i {
+    display: block;
+  }
+
+  .options {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #1b2735;
+    top: 40px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+
+
+  .contact {
+    display: block;
+  }
+
+  .navbar .options {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    line-height: 20px;
+  }
+
+  .navbar .contact {
+    font-size: 14px;
+    border: none;
+  }
+
+
+  .navbar .options .option {
+    font-size: 13px;
+  }
+
+
+  .navbar .options>.active {
+    background: none;
+    color: #d54a49;
+  }
+
+  #check:checked~.options {
+    left: 0px;
+  }
+}
