@@ -1,160 +1,155 @@
 .home-section {
-    background-color: rgb(9, 9, 10);
-    height: 100%;
-    width: 100vw;
-    display: flex;
-    justify-content: left;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+  background-color: rgb(6, 6, 10);
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  justify-content: left;
+
 }
 
 .heroPage {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 
 .contact-link {
-    display: flex;
-    flex-direction: column;
-    margin-left: 30px;
-    padding: 390px 0;
-    position: fixed;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  padding: 390px 0;
+  position: fixed;
 }
 
 .contact-link a i {
-    font-size: 20px;
-    margin: 10px;
-    color: rgb(40, 40, 41);
+  font-size: 20px;
+  margin: 10px;
+  color: rgba(222, 205, 195, 0.61);
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    margin-left: 120px;
-    padding: 150px 0;
+  display: flex;
+  flex-direction: column;
+  margin-left: 120px;
+  padding: 150px 0;
 }
 
 .welcome {
-    font-family: 'Noto Sans JP', sans-serif;
-    color: #d54a49;
-    font-size: 13px;
-
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #EA5455;
+  font-size: 13px;
 }
 
 .dev-name {
-    margin: 0;
+  margin: 0;
 }
 
 h1 {
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size: 3.3em;
-    letter-spacing: 1px;
-    color: rgb(255, 255, 255);
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 3.3em;
+  letter-spacing: 1px;
+  color: #E5E5E5;
 }
 
 h2 {
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size: 2.2em;
-    /* width: 90%; */
-    color: rgba(246, 245, 245, 0.616);
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 2.2em;
+  margin: 0;
+  /* width: 90%; */
+  color: rgba(222, 205, 195, 0.61);
 }
 
 .dev-about {
-    width: 100%;
+  width: 100%;
 }
 
-
 .sub-title p {
-    font-family: 'Microsoft JhengHei', sans-serif;
-    font-size: 14px;
-    color: rgba(246, 245, 245, 0.616);
+  font-family: 'Microsoft JhengHei', sans-serif;
+  font-size: 14px;
+  color: rgba(222, 205, 195, 0.61);
 }
 
 .sub-title {
-    padding: 15px 0;
-    width: 60%;
+  padding: 15px 0;
+  width: 60%;
 }
 
 .mailLink {
-    padding: 20px 0;
+  padding: 20px 0;
 }
 
 .mailLink a {
-    font-family: 'Noto sans jp', sans-serif;
-    border: 1.3px solid #d54a49;
-    width: 50%;
-    padding: 15px 30px;
-    text-decoration: none;
-    font-size: 14px;
-    border-radius: 4px;
-    color: rgb(226, 226, 226);
+  font-family: 'Noto sans jp', sans-serif;
+  border: 1.3px solid #EA5455;
+  width: 50%;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 4px;
+  color: rgb(226, 226, 226);
 }
 
-@media (max-width: 865px) {
-    .contact-link {
-        display: none;
-
-    }
+.mailLink :hover {
+  background: #d5494909;
 }
 
+@media (max-width: 978px) {
+  .contact-link {
+    display: none;
+  }
+}
 
 @media (max-width: 670px) {
-    h1 {
-        font-size: 3.0em;
-    }
+  h1 {
+    font-size: 3em;
+  }
 
-    h2 {
-        font-size: 2.0em;
-    }
+  h2 {
+    font-size: 2em;
+  }
 
-    .sub-title {
-        width: 80%;
-    }
+  .sub-title {
+    width: 80%;
+  }
 
-    .container {
-        margin: 40px;
-    }
+  .container {
+    margin: 40px;
+  }
 
-    .social-btn {
-        cursor: pointer;
-        height: 25px;
-        width: 25px;
-    }
+  .social-btn {
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+  }
 
-    svg {
-        height: 15px;
-        width: 15px;
-    }
+  svg {
+    height: 15px;
+    width: 15px;
+  }
 
-    .social-btn span {
-
-        font-size: 12px;
-    }
+  .social-btn span {
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 520px) {
+  .container {
+    /* padding: 80px 0; */
+  }
 
-    .container {
-        /* padding: 80px 0; */
-    }
+  .sub-title {
+    /* padding: 0; */
 
-    .sub-title {
+    /* margin-right: 300px; */
+  }
 
-        /* padding: 0; */
+  h1 {
+    font-size: 2.3em;
+    /* margin-left: 20px; */
+  }
 
-        /* margin-right: 300px; */
-    }
-
-    h1 {
-        font-size: 2.3em;
-        /* margin-left: 20px; */
-    }
-
-    h2 {
-        font-size: 1.5em;
-        /* width: 120px; */
-    }
+  h2 {
+    font-size: 1.5em;
+    /* width: 120px; */
+  }
 }

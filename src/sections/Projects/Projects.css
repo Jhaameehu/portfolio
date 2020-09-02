@@ -1,7 +1,7 @@
 .projects {
     height: 100%;
     width: 100vw;
-    background: rgb(9, 9, 10);
+    background-color: rgb(6, 6, 10);
 }
 
 .wrap {
@@ -24,7 +24,7 @@
     list-style: none;
     width: 25%;
     height: 400px;
-    background: rgba(15, 15, 17, 0.973);
+    background-color: rgb(9, 9, 14);
     margin: 20px 0 20px 75px;
 
 
@@ -33,7 +33,7 @@
 
 .wrap ul li .project-wrapper {
     width: 100%;
-    color: white;
+    color: #E5E5E5;
     margin-left: 30px;
     line-height: 30px;
 }
@@ -54,7 +54,7 @@
     font-size: 15px;
     font-family: 'Microsoft JhengHei', sans-serif;
     margin: 5px 0;
-    color: rgba(246, 245, 245, 0.616);
+    color: rgb(222, 205, 195);
 }
 
 .github-link {
@@ -65,7 +65,7 @@
 }
 
 .github-link i {
-    color: rgb(55, 55, 56);
+    color: rgba(222, 205, 195, 0.418);
     margin-right: 20px;
 }
 

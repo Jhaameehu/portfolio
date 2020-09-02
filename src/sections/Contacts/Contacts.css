@@ -1,199 +1,45 @@
 .contact-section {
-    /* background-color: rgb(231, 231, 231); */
-    background: rgb(9, 9, 10);
+    background-color: rgb(6, 6, 10);
     display: flex;
     flex-direction: row;
-    padding-top: 50px;
+
     height: 100vh;
     width: 100vw;
+    text-align: center;
     justify-content: center;
-    font-family: 'Candara';
 }
 
-.contact-status {
-    padding-top: 50px;
-    justify-content: center;
-    align-items: center;
-}
-
-.form-details {
+.contactInfo {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding-top: 60px;
 }
 
-.contact-card {
-    background-color: #0000004d;
-    border-radius: 5px;
-    border-top: 4px solid #D54A49;
-    text-align: center;
-    padding: 10px;
-    top: 0;
-    width: 180px;
-    justify-content: center;
-    align-items: center;
+.contactInfo h4 {
+    color: #E5E5E5;
+    font-size: 2.5rem;
+    margin: 70px 80px 30px 80px;
+    /* text-align: left; */
 }
 
-.contact-card h4,
-h2,
-p {
-    margin: 0;
-    padding: 0;
-}
-
-.contact-card .status {
-    color: rgb(226, 226, 226);
-    padding: 0;
-    font-size: 17px;
-    margin: 0;
-}
-
-.sub-details {
-    font-size: 15px;
-    color: rgb(226, 226, 226);
-}
-
-.contact-card .available {
-    font-size: 20px;
-    font-weight: bold;
-    color: #D54A49;
+.contactInfo p {
+    color: rgb(222, 205, 195);
+    font-family: 'Microsoft JhengHei', sans-serif;
+    margin: 0 100px 20px 100px;
+    font-size: 0.875rem;
 
 }
 
-.form-style-1 {
-    margin: auto;
-    width: 519px;
-    padding: 0 12px 10px 20px;
-    color: rgb(226, 226, 226);
-    font-size: 14px;
-
+.mailLink {
+    /* margin: 0 0 20px 80px; */
+    /* text-align: left; */
 }
 
-.form-style-1 li {
-    padding: 0;
-    display: block;
-    list-style: none;
-    margin: 10px 0 0 0;
-}
+@media (max-width: 600px) {
+    .contact-section {
 
-.form-style-1 label {
-    margin: 0 0 3px 0;
-    padding: 0;
-    display: block;
-}
+        height: 100%;
 
-.form-style-1 input[type='text'],
-.form-style-1 input[type='date'],
-.form-style-1 input[type='datetime'],
-.form-style-1 input[type='number'],
-.form-style-1 input[type='search'],
-.form-style-1 input[type='time'],
-.form-style-1 input[type='url'],
-.form-style-1 input[type='email'],
-textarea,
-select {
-    box-sizing: border-box;
-    border: 1.5px solid #0000004d;
-    border-radius: 3px;
-    color: #fff;
-    padding: 10px;
-    padding-top: 10px;
-    margin: 0px;
-    outline: none;
-    background-color: #0000004d;
-}
 
-.form-style-1 .field-divided {
-    width: 50%;
+    }
 }
-
-.form-style-1 .field-long {
-    width: 100%;
-}
-
-.form-style-1 .field-select {
-    width: 100%;
-}
-
-.form-style-1 .field-textarea {
-    height: 100%;
-}
-
-.form-style-1 input[type='submit'],
-.form-style-1 input[type='button'] {
-    background: #D54A49;
-    padding: 8px 15px 8px 15px;
-    border: none;
-    border-radius: 4px;
-    color: #fff;
-    cursor: pointer;
-}
-
-.form-style-1 input[type='submit']:hover,
-.form-style-1 input[type='button']:hover {
-    background: rgb(243, 69, 69);
-}
-
-.form-style-1 .required {
-    color: red;
-}
-
-/* 
-.social-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 5px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.social-btn {
-    cursor: pointer;
-    height: 30px;
-    width: 30px;
-    font-family: 'Noto sans';
-    color: rgb(226, 226, 226);
-    border-radius: 4px;
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
-    background: #0000004d;
-    margin-right: 30px;
-    transition: 1s;
-}
-
-.social-btn span {
-    width: 0;
-    overflow: hidden;
-    transition: 1s;
-    text-align: center;
-    font-size: 14px;
-}
-
-.social-btn:hover {
-    width: 130px;
-    border-radius: 4px;
-}
-
-.social-btn:hover span {
-    padding: 2px;
-    width: max-content;
-}
-
-#twitter svg {
-    fill: #1da1f2;
-}
-
-#linkedin svg {
-    fill: #0e76a8;
-}
-
-#github {
-    fill: rgb(2, 2, 2);
-}
-
-.flex-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */

@@ -34,18 +34,23 @@ body {
 
 .contact {
   font-weight: bold;
-  border: 1.2px solid #d54a49;
+  border: 1.2px solid #EA5455;
   border-radius: 3px;
   margin-left: 10px;
   margin-right: 40px;
   padding: 10px 15px;
-  color: #d54a49;
+  color: #EA5455;
   cursor: pointer;
 }
 
 .contact a {
   margin: 10px;
 }
+
+.contact:hover {
+  background: #d5494909;
+}
+
 
 
 .navbar .options {
@@ -56,14 +61,14 @@ body {
 }
 
 .navbar .options .option {
-  color: rgb(255, 255, 255);
+  color: #E5E5E5;
   font-size: 12px;
   padding: 10px;
   cursor: pointer;
 }
 
 .options>.active {
-  background-color: #d54a49;
+  background-color: #EA5455;
   border-radius: 3px;
   padding: 15px 10px;
   transition: .5s;
@@ -71,7 +76,7 @@ body {
 
 .checkbtn i {
   font-size: 18px;
-  color: rgba(246, 245, 245, 0.616);
+  color: #E5E5E5;
   float: right;
   line-height: 80px;
   margin-right: 40px;
