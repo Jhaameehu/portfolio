@@ -24,7 +24,12 @@
 .contact-link a i {
   font-size: 20px;
   margin: 10px;
-  color: rgba(222, 205, 195, 0.61);
+  color: rgba(229, 229, 229, 0.192);
+}
+
+.contact-link i:hover {
+  transform: scale(1.1);
+  color: rgba(204, 87, 87, 0.534);
 }
 
 .container {
@@ -48,7 +53,7 @@ h1 {
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 3.3em;
   letter-spacing: 1px;
-  color: #E5E5E5;
+  color: rgb(225, 225, 243);
 }
 
 h2 {
@@ -56,7 +61,7 @@ h2 {
   font-size: 2.2em;
   margin: 0;
   /* width: 90%; */
-  color: rgba(222, 205, 195, 0.61);
+  color: rgba(222, 205, 195, 0.603);
 }
 
 .dev-about {
@@ -66,7 +71,7 @@ h2 {
 .sub-title p {
   font-family: 'Microsoft JhengHei', sans-serif;
   font-size: 14px;
-  color: rgba(222, 205, 195, 0.61);
+  color: rgba(222, 205, 195, 0.603);
 }
 
 .sub-title {
