@@ -19,6 +19,11 @@ class Contact extends Component {
             </a>
           </div>
         </div>
+        <div>
+          <footer>
+            <p>Designed and built by Azeez Jamiu</p>
+          </footer>
+        </div>
       </div>
     );
   }

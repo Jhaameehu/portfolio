@@ -28,7 +28,7 @@
 
 .aboutImg img {
     /* width: 40%; */
-    width: 15rem;
+    width: 300px;
     /* margin: 0; */
     /* border-radius: 5px; */
     box-shadow: 3px 3px #d54a49;
@@ -56,8 +56,8 @@
 
 .aboutDetails p {
     font-family: 'Noto sans jp', sans-serif;
-    font-size: 0.90rem;
-    color: rgb(222, 205, 195);
+    font-size: 0.80rem;
+    color: rgba(220, 220, 250, 0.658);
     margin: 0;
 
 }
@@ -65,7 +65,7 @@
 .aboutDetails h2 {
     transition: ease-in-out 1s;
     font-family: 'Noto sans JP', sans-serif;
-    color: #E5E5E5;
+    color: rgb(225, 225, 243);
     text-align: left;
     font-size: 1.3rem;
     margin: 0;
@@ -76,7 +76,7 @@
     font-family: 'Microsoft JhengHei', sans-serif;
     font-size: 0.80rem;
     text-align: left;
-    color: rgb(222, 205, 195);
+    color: rgba(220, 220, 250, 0.658);
     padding: 0 0 5px 0;
     margin-right: 100px;
 
@@ -109,7 +109,7 @@
     font-family: 'Microsoft JhengHei', sans-serif;
     font-size: 13px;
     margin: 0 10px;
-    color: rgb(222, 205, 195);
+    color: rgba(220, 220, 250, 0.658);
     padding: 0;
 }
 
@@ -123,7 +123,7 @@
     font-family: 'Microsoft JhengHei', sans-serif;
     font-size: 13px;
     margin: 10px;
-    color: rgb(222, 205, 195);
+    color: rgba(220, 220, 250, 0.658);
     text-decoration: none;
 }
 
@@ -132,10 +132,8 @@
 @media (max-width: 978px) {
 
     .about {
-        /* padding-top: 90px; */
         background: none;
         box-shadow: none;
-        width: 100%;
         flex-direction: row;
         text-align: center;
         justify-content: center;
@@ -147,7 +145,6 @@
     }
 
     .aboutImg img {
-        margin-right: 30px;
         margin-left: 70px;
         box-shadow: 3px 3px #d54a49;
         /* transition: ease-in-out 2s; */
@@ -197,7 +194,7 @@
         padding: 10px 0;
         margin-right: 10px;
         font-size: 20px;
-        color: rgba(222, 205, 195, 0.568);
+        color: rgba(220, 220, 250, 0.178);
     }
 
     .contactlink {
@@ -233,91 +230,3 @@
         font-size: 18px;
     }
 }
-
-/* 
-
- {
-
-    .about {
-        padding-top: 90px;
-        background: none;
-        box-shadow: none;
-        width: 60%;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
-
-    }
-
-    br {
-        display: none;
-    }
-
-    img {}
-
-    .aboutImg img {
-        padding-top: 250px;
-
-
-    }
-
-    .aboutDetails {
-        text-align: center;
-        justify-content: center;
-    }
-
-    
-
-
-
-
-
-
-    .aboutDetails p {
-        font-size: 12px;
-    }
-
-    
-
-
-    .infoDetails p {
-        font-family: 'Microsoft JhengHei', sans-serif;
-        font-size: 13px;
-        text-align: left;
-        color: rgba(246, 245, 245, 0.616);
-        padding: 0 0 5px 0;
-        margin-right: 20px;
-
-    }
-
-    .infoDetails {
-        padding: 0;
-        width: 100%;
-    }
-
-    .aboutInfo {
-        padding: 0;
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-        text-align: left;
-    }
-
-    .contactDetails i {
-        margin: 5px 0;
-        font-size: 13px;
-        color: #d54a49;
-    }
-
-    .contactDetails {
-        padding: 0;
-    }
-
-    .contactDetails p {
-        font-family: 'Microsoft JhengHei', sans-serif;
-        font-size: 13px;
-        margin: 0 10px;
-        color: rgba(246, 245, 245, 0.616);
-        padding: 0;
-    }
-} */

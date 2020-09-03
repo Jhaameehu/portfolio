@@ -5,13 +5,17 @@ body {
 }
 
 .navbar {
-  /* background-color: rgba(2, 2, 2, 0.219); */
+  background-color: rgb(6, 6, 10);
+  box-shadow: 2px 2px 2px 0px rgb(6, 6, 10);
+  /* border-bottom: 0.060px solid #EA5455; */
 
   width: 100vw;
+  height: 50px;
   justify-content: space-between;
   font-size: 14px;
   /* font-weight: bold; */
   position: fixed;
+  /* display: none; */
 }
 
 .navbar a {
@@ -29,7 +33,7 @@ body {
 }
 
 .logo-container img {
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .contact {
@@ -57,7 +61,8 @@ body {
   float: right;
   margin-right: 20px;
   display: inline-block;
-  line-height: 80px;
+  line-height: 53px;
+
 }
 
 .navbar .options .option {
@@ -74,26 +79,26 @@ body {
   transition: .5s;
 }
 
-.checkbtn i {
-  font-size: 18px;
-  color: #E5E5E5;
-  float: right;
-  line-height: 80px;
-  margin-right: 40px;
-  cursor: pointer;
-  display: none;
 
-}
+@media (max-width: 768px) {
 
-#check {
-  display: none;
+  options {
+    visibility: visible;
+  }
+
+  /* .
+
+  .sidebar li {
+    visibility: visible;
+
+  } */
 }
 
 @media (max-width: 670px) {
   .navbar img {
-    margin-left: 20px;
+    margin-left: 30px;
     width: 120px;
-    padding-top: 35px;
+    padding-top: 20px;
   }
 
 
@@ -109,9 +114,7 @@ body {
 }
 
 @media (max-width: 560px) {
-  .checkbtn i {
-    display: block;
-  }
+
 
   .options {
     position: fixed;
@@ -146,13 +149,8 @@ body {
     font-size: 13px;
   }
 
-
   .navbar .options>.active {
     background: none;
     color: #d54a49;
-  }
-
-  #check:checked~.options {
-    left: 0px;
   }
 }

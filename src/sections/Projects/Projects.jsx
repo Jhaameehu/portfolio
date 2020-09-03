@@ -20,6 +20,7 @@ class Projects extends Component {
                     <span>Visit</span>
                   </i>
                 </a>
+
                 <a href='https://google.com' target='blank'>
                   <i className='fab fa-github'>
                     <span>Code</span>
