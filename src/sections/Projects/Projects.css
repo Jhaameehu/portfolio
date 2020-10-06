@@ -2,38 +2,36 @@
     height: 100%;
     width: 100vw;
     background-color: rgb(6, 6, 10);
+
 }
 
 .wrap {
     width: 100%;
     margin-left: 100px auto;
     overflow: hidden;
+}
 
+.ProjectTitle h4 {
+    color: rgba(220, 220, 250, 0.301);
+    letter-spacing: 2.5px;
+    margin-top: 80px;
+    margin-left: 118px;
 }
 
 
-
-.wrap ul {
-    padding-top: 60px;
-    /* margin: 0px; */
-
-}
+.wrap ul {}
 
 .wrap ul li {
     float: left;
     list-style: none;
     width: 25%;
     height: 400px;
-    background-color: rgba(14, 14, 26, 0.548);
+    /* background-color: rgba(14, 14, 26, 0.548); */
     background: linear-gradient(0deg, rgb(10, 10, 17) 40%, rgb(239, 76, 1)800%);
-    margin: 20px 0 20px 75px;
-
-
+    margin: 20px 0 20px 78px;
 }
 
-.wrap ul li .project-wrapper:hover {
-    box-shadow: aqua;
-}
+.wrap ul li .project-wrapper:hover {}
 
 
 .wrap ul li .project-wrapper {
@@ -49,14 +47,14 @@
 
 .project-wrapper h3 {
     font-family: 'Noto sans JP', sans-serif;
-    font-size: 30px;
+    font-size: 1.875rem;
     margin: 10px 0;
     padding: 5px 0;
     width: 90%;
 }
 
 .project-wrapper p {
-    font-size: 12px;
+    font-size: 0.70rem;
     font-family: 'Microsoft JhengHei', sans-serif;
     margin: 5px 0;
     color: rgba(220, 220, 250, 0.658);
@@ -78,20 +76,23 @@
 
 .github-link i span {
     font-family: 'Microsoft JhengHei', sans-serif;
-    font-size: 11px;
+    font-size: 0.68rem;
     font-weight: bold;
     margin-left: 5px;
 }
 
 @media screen and (max-width:1080px) {
     .wrap ul li {
-        width: 35%;
-        margin-left: 70px;
-
+        width: 32%;
     }
+
 }
 
-@media screen and (max-width:850px) {
+@media screen and (max-width:978px) {
+    .ProjectTitle h4 {
+        margin-left: 80px;
+    }
+
     .wrap ul li {
         width: 35%;
         height: 320px;
@@ -100,10 +101,6 @@
 
     .project-wrapper {
         margin: 130px 0 0 0;
-    }
-
-    .project-wrapper p {
-        font-size: 13px;
     }
 
     .project-wrapper h3 {
@@ -117,10 +114,16 @@
 }
 
 @media screen and (max-width:625px) {
+    .ProjectTitle h4 {
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+
     .wrap ul li {
         width: 85%;
         height: 180px;
-        margin: 4%;
+        /* margin: 4% 0; */
+        margin-left: 10px;
     }
 
 
@@ -129,12 +132,8 @@
     }
 
     .project-wrapper h3 {
-        font-size: 20px;
+        font-size: 1.25rem;
         margin: 0;
-    }
-
-    .project-wrapper p {
-        font-size: 12px;
     }
 
     .project-wrapper h3 {
@@ -143,17 +142,10 @@
 
     .github-link {
         margin: 30px 30px;
-        font-size: 12px;
     }
 
     .github-link i {
         margin-right: 20px;
         font-size: 15px;
     }
-
-
-    .github-link span {
-        font-size: 12px;
-    }
-
 }

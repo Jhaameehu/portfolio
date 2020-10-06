@@ -1,18 +1,14 @@
 .home-section {
   background-color: rgb(6, 6, 10);
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   display: flex;
-  justify-content: left;
-
-
 }
 
 .heroPage {
   display: flex;
   flex-direction: row;
   width: 100%;
-
 }
 
 .contact-link {
@@ -24,14 +20,14 @@
 }
 
 .contact-link a i {
-  font-size: 20px;
+  font-size: 25px;
   margin: 10px;
   color: rgba(229, 229, 229, 0.192);
 }
 
 .contact-link i:hover {
   transform: scale(1.1);
-  color: rgba(204, 87, 87, 0.534);
+  color: rgba(204, 87, 87, 0.281);
 }
 
 .container {
@@ -43,7 +39,7 @@
 
 .welcome {
   font-family: 'Noto Sans JP', sans-serif;
-  color: #EA5455;
+  color: #ea5455;
   font-size: 13px;
 }
 
@@ -72,12 +68,12 @@ h2 {
 
 .sub-title p {
   font-family: 'Microsoft JhengHei', sans-serif;
-  font-size: 14px;
+  font-size: 0.8rem;
   color: rgba(220, 220, 250, 0.658);
 }
 
 .sub-title {
-  padding: 15px 0;
+  padding: 5px 0;
   width: 60%;
 }
 
@@ -87,17 +83,18 @@ h2 {
 
 .mailLink a {
   font-family: 'Noto sans jp', sans-serif;
-  border: 1.3px solid #EA5455;
+  border: 1.3px solid #ea5455;
   width: 50%;
   padding: 15px 30px;
   text-decoration: none;
   font-size: 14px;
   border-radius: 4px;
-  color: #EA5455;
+  color: #ea5455;
 }
 
 .mailLink :hover {
-  background: #d5494909;
+  background: #e5e5e507;
+  color: #e5e5e5;
 }
 
 @media (max-width: 978px) {
@@ -105,9 +102,8 @@ h2 {
     display: none;
   }
 
-  .home-section {
-    /* padding-top: 20px; */
-    height: 100%;
+  .sub-title p {
+    font-size: 0.72rem;
   }
 }
 
@@ -125,7 +121,7 @@ h2 {
   }
 
   .container {
-    margin: 40px;
+    margin: 0 50px;
   }
 
   .social-btn {
@@ -156,12 +152,12 @@ h2 {
   }
 
   h1 {
-    font-size: 2.3em;
+    font-size: 2.1em;
     /* margin-left: 20px; */
   }
 
   h2 {
-    font-size: 1.5em;
+    font-size: 1.3em;
     /* width: 120px; */
   }
 }

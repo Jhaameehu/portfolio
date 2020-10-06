@@ -1,42 +1,65 @@
 .contact-section {
-    background-color: rgb(6, 6, 10);
-    width: 100vw;
-    height: 100vh;
-    text-align: center;
-    justify-content: center;
+  background-color: rgb(6, 6, 10);
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+}
+
+.contactTitle h4 {
+  color: rgba(220, 220, 250, 0.301);
+  letter-spacing: 2.5px;
+  margin-top: 90px;
+  font-size: 0.86rem;
 }
 
 .contactInfo {
-    display: flex;
-    flex-direction: column;
-    padding-top: 40px;
-
-    min-height: 100vh;
-    min-height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: calc(100vh - 42px);
 }
 
-.contactInfo h4 {
-    color: rgb(225, 225, 243);
-    font-size: 2.0rem;
-    margin: 70px 80px 30px 80px;
-    /* text-align: left; */
+.contactInfo h3 {
+  color: rgb(225, 225, 243);
+  font-size: 2rem;
+  margin: 0 20px 20px 0;
 }
 
 .contactInfo p {
-    color: rgba(220, 220, 250, 0.658);
-    font-family: 'Microsoft JhengHei', sans-serif;
-    margin: 0 100px 20px 100px;
-    font-size: 0.75rem;
+  color: rgba(220, 220, 250, 0.658);
+  font-family: 'Microsoft JhengHei', sans-serif;
+  margin: 0 80px 20px 80px;
+  font-size: 0.8rem;
 }
 
+.contactLink {
+  padding: 20px 0;
+}
+
+.contactLink a {
+  font-family: 'Noto sans jp', sans-serif;
+  border: 1.3px solid #ea5455;
+  width: 50%;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 4px;
+  color: #ea5455;
+}
+
+.contactLink :hover {
+  background: #e5e5e507;
+  color: #e5e5e5;
+}
 .footer {
-    position: fixed;
+  position: fixed;
 }
 
 footer p {
-    left: 0;
-    bottom: 0;
-    font-size: 11px;
-    justify-content: center;
-    color: rgba(220, 220, 250, 0.658);
+  left: 0;
+  bottom: 0;
+  font-size: 11px;
+  justify-content: center;
+  color: rgba(220, 220, 250, 0.658);
 }

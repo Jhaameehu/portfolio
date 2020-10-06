@@ -1,83 +1,39 @@
-import React, { Component } from 'react';
-import { Link } from 'react-scroll';
+import React from 'react';
+import styled from 'styled-components';
+import Burger from './Burger';
 import images from '../images/logo.png';
 
-class Navbar extends Component {
-  render() {
-    return (
-      <nav>
-        <div className='header'>
-          <div className='navbar'>
-            <Link
-              className='logo-container'
-              activeClass='active'
-              to='home'
-              spy={true}
-              smooth={true}
-              offset={0}
-              duration={500}
-            >
-              <img src={images} alt='logo' />
-            </Link>
-            <div className='options'>
-              <Link
-                className='option'
-                activeClass='active'
-                to='home'
-                spy={true}
-                smooth={true}
-                offset={0}
-                duration={500}
-              >
-                Home
-              </Link>
-
-              <Link
-                className='option'
-                activeClass='active'
-                to='about'
-                spy={true}
-                smooth={true}
-                offset={0}
-                duration={500}
-              >
-                About
-              </Link>
-              <Link
-                className='option'
-                activeClass='active'
-                to='projects'
-                spy={true}
-                smooth={true}
-                offset={0}
-                duration={500}
-              >
-                Projects
-              </Link>
-              <Link
-                className='option'
-                activeClass='active'
-                to='contact'
-                spy={true}
-                smooth={true}
-                offset={0}
-                duration={500}
-              >
-                Contact
-              </Link>
-
-              <a
-                className='contact'
-                href='https://drive.google.com/file/d/1NdkmuOJcTbPCf8xIuxlmJpjhTiaGUloJ/view?usp=drivesdk'
-                target='blank'
-              >
-                Resume
-              </a>
-            </div>
-          </div>
-        </div>
-      </nav>
-    );
+const Nav = styled.nav`
+  background-color: rgb(6, 6, 10);
+  width: 100vw;
+  height: 75px;
+  // padding: 0 30px;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  .logo img {
+    padding: 30px 0;
+    width: 130px;
+    margin-left: 45px;
   }
-}
+
+  @media (max-width: 768px) {
+    position: unset;
+    .logo img {
+      margin-left: 25px;
+  }
+`;
+
+const Navbar = () => {
+  return (
+    <Nav>
+      <div className='logo'>
+        <img src={images} alt='logo' />
+      </div>
+
+      <Burger />
+    </Nav>
+  );
+};
+
 export default Navbar;

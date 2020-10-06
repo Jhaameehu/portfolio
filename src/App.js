@@ -3,7 +3,6 @@ import React, {
 } from 'react';
 
 import Navbar from './components/Navbar';
-// import SidebarData from './components/SidebarData';
 import Home from './sections/Home/Home';
 import About from './sections/About/About';
 import Projects from './sections/Projects/Projects';
@@ -15,8 +14,8 @@ class App extends Component {
     return ( <
       div className = 'App' >
       <
-      Navbar / > {
-        /* <SidebarData /> */ } <
+      Navbar / >
+      <
       Home / >
       <
       About / >
@@ -24,6 +23,7 @@ class App extends Component {
       Projects / >
       <
       Contact / >
+
       <
       /div>
     );
