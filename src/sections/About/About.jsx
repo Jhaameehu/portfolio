@@ -25,7 +25,7 @@ class About extends Component {
                     I'm a Frontend developer, I enjoy building responsive
                     websites and creating elegant solutions through code. I'm
                     also a student studying Electronic and computer engineering
-                    currently in my final year. <br /> <br /> Here are a few
+                    currently in my final year. <br /> Here are a few
                     technologies I've been working with recently: HTML, CSS,
                     Dart, Javascript, React, Flutter, Figma, InVision.
                   </p>
@@ -62,7 +62,7 @@ class About extends Component {
                   </a>
                 </div>
                 <div className='social-media'>
-                  <a href='https://github.com/Jhaameehu'>
+                  <a href='https://linkedin.com/azeez-jamiu'>
                     <i className='fab fa-linkedin'></i>
                   </a>
                 </div>

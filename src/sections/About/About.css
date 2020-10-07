@@ -16,7 +16,8 @@ span h4 {
   margin-left: 200px;
 }
 
-.aboutTitle {
+.aboutTitle h4 {
+  margin-bottom: 15px;
 }
 
 .about {
@@ -34,12 +35,12 @@ span h4 {
 }
 
 .aboutDetails {
-  margin: 10px;
+  /* margin: 10px; */
   margin-left: 0px;
 }
 
 .aboutDetails .title {
-  padding: 10px 0 10px 0;
+  padding: 0px 0 10px 0;
   text-align: left;
 }
 
@@ -62,6 +63,7 @@ span h4 {
   text-align: left;
   font-size: 1.3rem;
   margin: 0;
+  padding-top: 10px;
 }
 
 .infoDetails p {
@@ -87,7 +89,7 @@ span h4 {
 }
 
 .contactDetails i {
-  margin: 5px 0;
+  /* margin: 5px 0; */
   font-size: 13px;
   color: #ea5455;
 }
@@ -98,7 +100,7 @@ span h4 {
 
 .contactDetails p {
   font-family: 'Microsoft JhengHei', sans-serif;
-  font-size: 13px;
+  font-size: 0.8rem;
   margin: 0 10px;
   color: rgba(220, 220, 250, 0.658);
   padding: 0;
@@ -112,7 +114,7 @@ span h4 {
 
 .contactDetails a {
   font-family: 'Microsoft JhengHei', sans-serif;
-  font-size: 13px;
+  font-size: 0.8rem;
   margin: 10px;
   color: rgba(220, 220, 250, 0.658);
   text-decoration: none;
@@ -123,6 +125,9 @@ span h4 {
     flex-direction: row;
     text-align: center;
     justify-content: center;
+  }
+  .aboutTitle h4 {
+    margin-left: 30px;
   }
   .aboutinfo {
     margin-left: 20px;
@@ -144,22 +149,18 @@ span h4 {
     display: none;
   }
 
-  .infoDetails p {
-    font-size: 0.7rem;
-  }
-
   .contactDetails i {
     font-size: 12px;
   }
 
   .aboutDetails {
-    margin-left: 50px;
+    margin-left: 30px;
   }
 
   .infoDetails p {
     text-align: left;
-    margin-right: 40px;
-    font-size: 0.72rem;
+    margin-right: 0px;
+    /* font-size: 0.7rem; */
   }
 
   .aboutDetails .title {
@@ -207,10 +208,10 @@ span h4 {
   }
 
   .contactDetails i {
-    font-size: 11px;
+    font-size: 13px;
   }
 
   .contactlink a i {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
