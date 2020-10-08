@@ -122,7 +122,7 @@ span h4 {
 
 @media (max-width: 978px) {
   .about-section {
-    height: 60vh;
+    height: 60%;
   }
   .about {
     flex-direction: row;
@@ -133,7 +133,6 @@ span h4 {
     margin-left: 70px;
   }
   .aboutinfo {
-    /* padding-top: 0px; */
     margin-left: 20px;
   }
   span h4 {
@@ -164,7 +163,6 @@ span h4 {
   .infoDetails p {
     text-align: left;
     margin-right: 0px;
-    /* font-size: 0.7rem; */
   }
 
   .aboutDetails .title {
@@ -187,19 +185,19 @@ span h4 {
   .contactlink {
     display: flex;
     visibility: visible;
+    margin-bottom: 50px;
   }
 }
 
 @media (max-width: 625px) {
   .about-section {
-    height: 75vh;
   }
   .about {
     flex-direction: column;
   }
   .aboutTitle h4 {
     margin-bottom: 15px;
-    padding-top: 20px;
+    padding-top: 30px;
     margin-left: 30px;
   }
   .infoDetails p {
