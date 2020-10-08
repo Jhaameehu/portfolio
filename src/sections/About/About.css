@@ -18,8 +18,8 @@ span h4 {
 
 .aboutTitle h4 {
   margin-bottom: 15px;
+  line-height: 0;
 }
-
 .about {
   display: flex;
   flex-direction: row;
@@ -195,9 +195,13 @@ span h4 {
     flex-direction: column;
   }
 
+  .aboutTitle h4 {
+    margin-bottom: 15px;
+    padding-top: 50px;
+  }
+
   span h4 {
-    margin-top: 40px;
-    margin-left: 50px;
+    margin-top: 50px;
   }
 
   .aboutImg img {

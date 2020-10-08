@@ -18,11 +18,11 @@ class Projects extends Component {
                 <p className='project-details'>React, Firebase, Material UI.</p>
               </div>
               <div className='github-link'>
-                <a href='/' target='blank'>
+                {/* <a href='/' target='blank'>
                   <i className='fas fa-eye'>
                     <span>Visit</span>
                   </i>
-                </a>
+                </a> */}
 
                 <a
                   href='https://github.com/Jhaameehu/crwn-clothing'
@@ -42,11 +42,11 @@ class Projects extends Component {
                 <p className='project-details'>React</p>
               </div>
               <div className='github-link'>
-                <a href='/' target='blank'>
+                {/* <a href='/' target='blank'>
                   <i className='fas fa-eye'>
                     <span>Visit</span>
                   </i>
-                </a>
+                </a> */}
                 <a
                   href='https://github.com/Jhaameehu/weatherApp'
                   target='blank'
@@ -65,11 +65,11 @@ class Projects extends Component {
                 <p className='project-details'>React</p>
               </div>
               <div className='github-link'>
-                <a href='/' target='blank'>
+                {/* <a href='/' target='blank'>
                   <i className='fas fa-eye'>
                     <span>Visit</span>
                   </i>
-                </a>
+                </a> */}
                 <a href='https://github.com/Jhaameehu/portfolio' target='blank'>
                   <i className='fab fa-github'>
                     <span>Code</span>
@@ -85,11 +85,11 @@ class Projects extends Component {
                 <p className='project-details'>React, Material UI</p>
               </div>
               <div className='github-link'>
-                <a href='/' target='blank'>
+                {/* <a href='/' target='blank'>
                   <i className='fas fa-eye'>
                     <span>Visit</span>
                   </i>
-                </a>
+                </a> */}
                 <a
                   href='https://github.com/Jhaameehu/covid_19_tracker'
                   target='blank'
@@ -108,11 +108,11 @@ class Projects extends Component {
                 <p className='project-details'>Javascript</p>
               </div>
               <div className='github-link'>
-                <a href='/' target='blank'>
+                {/* <a href='/' target='blank'>
                   <i className='fas fa-eye'>
                     <span>Visit</span>
                   </i>
-                </a>
+                </a> */}
                 <a href='https://github.com/Jhaameehu/Dice-roll' target='blank'>
                   <i className='fab fa-github'>
                     <span>Code</span>
