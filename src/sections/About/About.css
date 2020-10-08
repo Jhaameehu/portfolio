@@ -127,7 +127,7 @@ span h4 {
     justify-content: center;
   }
   .aboutTitle h4 {
-    margin-left: 30px;
+    margin-left: 70px;
   }
   .aboutinfo {
     margin-left: 20px;
@@ -194,10 +194,10 @@ span h4 {
   .about {
     flex-direction: column;
   }
-
   .aboutTitle h4 {
     margin-bottom: 15px;
     padding-top: 0px;
+    margin-left: 30px;
   }
 
   span h4 {
