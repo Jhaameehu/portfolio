@@ -103,18 +103,14 @@ h2 {
 
 @media (max-width: 978px) {
   .home-section {
-    height: 90vh;
+    height: 85vh;
+  }
+  .container {
+    margin-left: 60px;
   }
   .contact-link {
     display: none;
   }
-
-  .sub-title p {
-    font-size: 0.82rem;
-  }
-}
-
-@media (max-width: 670px) {
   h1 {
     font-size: 3em;
   }
@@ -123,6 +119,12 @@ h2 {
     font-size: 2em;
   }
 
+  .sub-title p {
+    font-size: 0.82rem;
+  }
+}
+
+@media (max-width: 670px) {
   .sub-title {
     width: 80%;
   }
