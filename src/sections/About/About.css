@@ -1,5 +1,5 @@
 .about-section {
-  height: 100vh;
+  height: 90vh;
   width: 100vw;
   overflow: hidden;
   background-color: rgb(6, 6, 10);
@@ -197,7 +197,7 @@ span h4 {
 
   .aboutTitle h4 {
     margin-bottom: 15px;
-    padding-top: 50px;
+    padding-top: 0px;
   }
 
   span h4 {
