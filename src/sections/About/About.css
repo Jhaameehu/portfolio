@@ -51,7 +51,7 @@ span h4 {
 
 .aboutDetails p {
   font-family: 'Noto sans jp', sans-serif;
-  font-size: 0.8rem;
+  font-size: 0.82rem;
   color: rgba(220, 220, 250, 0.658);
   margin: 0;
 }
@@ -68,7 +68,7 @@ span h4 {
 
 .infoDetails p {
   font-family: 'Microsoft JhengHei', sans-serif;
-  font-size: 0.8rem;
+  font-size: 0.82rem;
   text-align: left;
   color: rgba(220, 220, 250, 0.658);
   padding: 0 0 5px 0;
@@ -100,7 +100,7 @@ span h4 {
 
 .contactDetails p {
   font-family: 'Microsoft JhengHei', sans-serif;
-  font-size: 0.8rem;
+  font-size: 0.82rem;
   margin: 0 10px;
   color: rgba(220, 220, 250, 0.658);
   padding: 0;
@@ -114,13 +114,16 @@ span h4 {
 
 .contactDetails a {
   font-family: 'Microsoft JhengHei', sans-serif;
-  font-size: 0.8rem;
+  font-size: 0.82rem;
   margin: 10px;
   color: rgba(220, 220, 250, 0.658);
   text-decoration: none;
 }
 
 @media (max-width: 978px) {
+  .about-section {
+    height: 60vh;
+  }
   .about {
     flex-direction: row;
     text-align: center;
@@ -189,18 +192,19 @@ span h4 {
 
 @media (max-width: 625px) {
   .about-section {
-    height: 85vh;
+    height: 75vh;
   }
-
   .about {
     flex-direction: column;
   }
   .aboutTitle h4 {
     margin-bottom: 15px;
-    padding-top: 0px;
+    padding-top: 20px;
     margin-left: 30px;
   }
-
+  .infoDetails p {
+    font-size: 0.85rem;
+  }
   span h4 {
     margin-top: 0px;
   }
