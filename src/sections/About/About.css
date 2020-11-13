@@ -130,6 +130,7 @@ span h4 {
 @media (max-width: 978px) {
   .about-section {
     /* height: 100vh; */
+    padding: 0;
   }
   .about {
     flex-direction: row;
