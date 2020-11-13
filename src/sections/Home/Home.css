@@ -106,7 +106,7 @@ h2 {
 
 @media (max-width: 978px) {
   .home-section {
-    height: 100vh;
+    height: 100%;
   }
   .container {
     margin-left: 60px;
