@@ -50,8 +50,9 @@ span h4 {
 }
 
 .aboutDetails p {
-  font-family: 'Noto sans jp', sans-serif;
-  font-size: 0.82rem;
+    font-family: 'Rubik',
+    sans-serif;
+  font-size: 0.80rem;
   color: rgba(220, 220, 250, 0.658);
   margin: 0;
 }
@@ -67,8 +68,10 @@ span h4 {
 }
 
 .infoDetails p {
-  font-family: 'Microsoft JhengHei', sans-serif;
-  font-size: 0.82rem;
+    font-family: 'Rubik',
+    sans-serif;
+
+  font-size: 0.80rem;
   text-align: left;
   color: rgba(220, 220, 250, 0.658);
   padding: 0 0 5px 0;
@@ -99,8 +102,9 @@ span h4 {
 }
 
 .contactDetails p {
-  font-family: 'Microsoft JhengHei', sans-serif;
-  font-size: 0.86rem;
+  font-family: 'Rubik',
+  sans-serif;
+  font-size: 0.80rem;
   margin: 0 10px;
   color: rgba(220, 220, 250, 0.658);
   padding: 0;
@@ -113,8 +117,9 @@ span h4 {
 }
 
 .contactDetails a {
-  font-family: 'Microsoft JhengHei', sans-serif;
-  font-size: 0.86rem;
+  font-family: 'Rubik',
+  sans-serif;
+  font-size: 0.80rem;
   margin: 10px;
   color: rgba(220, 220, 250, 0.658);
   text-decoration: none;
@@ -122,7 +127,7 @@ span h4 {
 
 @media (max-width: 978px) {
   .about-section {
-    height: 60%;
+    height: 100%;
   }
   .about {
     flex-direction: row;
@@ -190,8 +195,6 @@ span h4 {
 }
 
 @media (max-width: 625px) {
-  .about-section {
-  }
   .about {
     flex-direction: column;
   }
@@ -201,7 +204,7 @@ span h4 {
     margin-left: 30px;
   }
   .infoDetails p {
-    font-size: 0.86rem;
+    /* font-size: 0.8rem; */
   }
   span h4 {
     margin-top: 0px;

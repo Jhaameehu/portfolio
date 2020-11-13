@@ -31,9 +31,6 @@
   margin: 0px 0 20px 78px;
 }
 
-.wrap ul li .project-wrapper:hover {
-}
-
 .wrap ul li .project-wrapper {
   width: 100%;
   color: rgb(225, 225, 243);
@@ -55,7 +52,8 @@
 
 .project-wrapper p {
   font-size: 0.7rem;
-  font-family: 'Microsoft JhengHei', sans-serif;
+    font-family: 'Rubik',
+    sans-serif;
   margin: 5px 0;
   color: rgba(220, 220, 250, 0.658);
 }
@@ -73,7 +71,9 @@
 }
 
 .github-link i span {
-  font-family: 'Microsoft JhengHei', sans-serif;
+    font-family: 'Rubik',
+    sans-serif;
+
   font-size: 0.68rem;
   font-weight: bold;
   margin-left: 5px;
@@ -110,16 +110,14 @@
 }
 
 @media screen and (max-width: 625px) {
-  .ProjectTitle h4 {
-    margin-top: 40px;
-    margin-left: 50px;
-  }
 
+  .projects{
+    display: flex;
+    justify-content: center;
+  }
   .wrap ul li {
-    width: 85%;
+    width: 80%;
     height: 180px;
-    /* margin: 4% 0; */
-    margin-left: 10px;
   }
 
   .project-wrapper {
