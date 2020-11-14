@@ -54,7 +54,7 @@ span h4 {
 .aboutDetails p {
     font-family: 'Rubik',
     sans-serif;
-  font-size: 0.80rem;
+  font-size: 0.85rem;
   color: rgba(220, 220, 250, 0.658);
   margin: 0;
 }
@@ -73,7 +73,7 @@ span h4 {
     font-family: 'Rubik',
     sans-serif;
 
-  font-size: 0.80rem;
+  font-size: 0.85rem;
   text-align: left;
   color: rgba(220, 220, 250, 0.658);
   padding: 0 0 5px 0;

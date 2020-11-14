@@ -26,7 +26,7 @@ const StyledBurger = styled.div`
     transform-origin: 1px;
     transition: all 0.3s linear;
     &:nth-child(1) {
-      transform: ${({ open }) => (open ? 'rotate(45deg)' : 'rotate(0)')};
+      transform: ${({ open }) => (open ? 'rotate(50deg)' : 'rotate(0)')};
     }
     &:nth-child(2) {
       transform: ${({ open }) => (open ? 'translateX(100%)' : 'translateX(0)')};
@@ -34,7 +34,7 @@ const StyledBurger = styled.div`
       width: 1rem;
     }
     &:nth-child(3) {
-      transform: ${({ open }) => (open ? 'rotate(-45deg)' : 'rotate(0)')};
+      transform: ${({ open }) => (open ? 'rotate(-50deg)' : 'rotate(0)')};
     }
   }
 `;

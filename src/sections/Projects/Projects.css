@@ -1,7 +1,8 @@
 .projects {
-  height: 100%;
+  /* height: 100vh; */
   width: 100vw;
   background-color: rgb(6, 6, 10);
+  padding-bottom: 20px;
 }
 
 .wrap {
@@ -71,9 +72,7 @@
 }
 
 .github-link i span {
-    font-family: 'Rubik',
-    sans-serif;
-
+    font-family: 'Rubik',sans-serif;
   font-size: 0.68rem;
   font-weight: bold;
   margin-left: 5px;
