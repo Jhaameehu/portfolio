@@ -71,6 +71,12 @@
   margin-right: 20px;
 }
 
+.github-link i:hover {
+  color: rgba(220, 220, 250, 0.253);
+  transition: ease-in-out .2s;
+}
+
+
 .github-link i span {
     font-family: 'Rubik',sans-serif;
   font-size: 0.68rem;

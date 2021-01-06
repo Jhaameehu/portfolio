@@ -65,11 +65,11 @@ class Projects extends Component {
                 <p className='project-details'>React</p>
               </div>
               <div className='github-link'>
-                {/* <a href='/' target='blank'>
+                <a href='/' target='blank'>
                   <i className='fas fa-eye'>
                     <span>Visit</span>
                   </i>
-                </a> */}
+                </a>
                 <a href='https://github.com/Jhaameehu/portfolio' target='blank'>
                   <i className='fab fa-github'>
                     <span>Code</span>
@@ -103,17 +103,17 @@ class Projects extends Component {
 
             <li>
               <div className='project-wrapper'>
-                <h3>Dice</h3>
-                <h3>Roll</h3>
-                <p className='project-details'>Javascript</p>
+                <h3>Netflix</h3>
+                <h3>Clone</h3>
+                <p className='project-details'>React, API</p>
               </div>
               <div className='github-link'>
-                {/* <a href='/' target='blank'>
+                <a href='https://netflixclonne.netlify.app' target='blank'>
                   <i className='fas fa-eye'>
                     <span>Visit</span>
                   </i>
-                </a> */}
-                <a href='https://github.com/Jhaameehu/Dice-roll' target='blank'>
+                </a>
+                <a href='https://github.com/Jhaameehu/netflix-clone' target='blank'>
                   <i className='fab fa-github'>
                     <span>Code</span>
                   </i>
@@ -121,6 +121,25 @@ class Projects extends Component {
               </div>
             </li>
 
+            <li>
+              <div className='project-wrapper'>
+                <h3>Shopping</h3>
+                <h3>Cart</h3>
+                <p className='project-details'>React, API</p>
+              </div>
+              <div className='github-link'>
+                <a href='https://shoppingcarrt.netlify.app' target='blank'>
+                  <i className='fas fa-eye'>
+                    <span>Visit</span>
+                  </i>
+                </a>
+                <a href='https://github.com/Jhaameehu/Shopping-Cart' target='blank'>
+                  <i className='fab fa-github'>
+                    <span>Code</span>
+                  </i>
+                </a>
+              </div>
+            </li>
             {/* <li>
               <div className='project-wrapper'>
                 <h3></h3>

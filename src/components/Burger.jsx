@@ -27,14 +27,17 @@ const StyledBurger = styled.div`
     transition: all 0.3s linear;
     &:nth-child(1) {
       transform: ${({ open }) => (open ? 'rotate(50deg)' : 'rotate(0)')};
+      height: 2.5px;
     }
     &:nth-child(2) {
       transform: ${({ open }) => (open ? 'translateX(100%)' : 'translateX(0)')};
       opacity: ${({ open }) => (open ? 0 : 1)};
       width: 1rem;
+      height: 2.5px;
     }
     &:nth-child(3) {
       transform: ${({ open }) => (open ? 'rotate(-50deg)' : 'rotate(0)')};
+      height: 2.5px;
     }
   }
 `;
